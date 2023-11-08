@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\Buttons\TitleBarButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\Buttons\ToolBarButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\SegmentedControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\Segment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer\Tracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer\TracerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer\APDUSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer\APDUCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="singleapplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="singleapplication_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\AboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\FramelessMainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationLayerDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\RemembersStateMainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Windows\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widgets\Buttons\TitleBarButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widgets\Buttons\ToolBarButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widgets\SegmentedControl.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widgets\Segment.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Tracer\Tracer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Tracer\TracerManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="singleapplication_p.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="singleapplication.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UpdateManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widgets\AboutDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Windows\FramelessMainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ApplicationLayerDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Windows\RemembersStateMainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Widgets\AboutDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Windows\MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Windows\Resources\Assets\Windows-New\Export.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\Windows-New\Import.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\Windows-New\Save.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\Windows-New\Start.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\Windows-New\Stop.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\macOS\Export.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\macOS\Import.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\macOS\Save.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\macOS\Start.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Windows\Resources\Assets\macOS\Stop.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\Windows-New\Export.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\Windows-New\Import.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\Windows-New\Save.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\Windows-New\Start.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\Windows-New\Stop.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\macOS\Export.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\macOS\Import.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\macOS\Save.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\macOS\Start.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\Assets\macOS\Stop.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Localisation\scet_es.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="Resources\Localisation\scet_fr.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resources\ScET.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tracer\SIMTraceUSB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer\APDUCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer\APDUSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontSizes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\ScET.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\ScET.rc" />
+  </ItemGroup>
+</Project>

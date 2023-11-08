@@ -1,0 +1,44 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+*.dmg
+
+# Allow all files inside Frameworks
+!Frameworks/**/*
+
+*.DS_Store
+Build/
+x64/
+.vs/
+ScET/x64/
+ScET/GeneratedFiles/
+ScET/.vs/
+Installer/packages/com.cardcentric.scet/data
+*.user
